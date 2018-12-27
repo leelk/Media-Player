@@ -1,0 +1,12 @@
+<RCC>
+    <qresource prefix="/images">
+        <file>icons/icons8-end-90.png</file>
+        <file>icons/icons8-no-audio-90.png</file>
+        <file>icons/icons8-pause-90.png</file>
+        <file>icons/icons8-play-90.png</file>
+        <file>icons/icons8-playlist-90.png</file>
+        <file>icons/icons8-skip-to-start-90.png</file>
+        <file>icons/icons8-stop-90.png</file>
+        <file>icons/open-archive.png</file>
+    </qresource>
+</RCC>
