@@ -35,9 +35,9 @@ MainWindow::MainWindow(QWidget *parent) :
   // vw->setStyleSheet(" border: 2px solid green;border-radius: 4px;padding: 2px;");
     //ui->statusBar->setStyleSheet(color:black);
    // qApp->setStyleSheet("QLineEdit { background-color: yellow }");
-//    ui->statusBar->setStyleSheet(" background-color: black; color:white; border-radius: 4px"); THIS IS WORKING
+  ui->statusBar->setStyleSheet(" background-color: black; color:white; border-radius: 4px");
 
-//ui->mainToolBar->setStyleSheet(" background-color: blue; color: red; height:70px; align:center"); THIS IS WORKING
+  ui->mainToolBar->setStyleSheet(" background-color: blue; color: red; height:70px; align:center");
 
 
     slider = new QSlider(this);
@@ -226,28 +226,6 @@ void MainWindow::on_actionPlayList_triggered()
     player->setPlaylist(playlist);
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-playlist->addMedia(QUrl::fromLocalFile("C:/Users/Leel Karunaratne/Desktop/New folder (2)/2.mp4"));
-playlist->addMedia(QUrl::fromLocalFile("C:/Users/Leel Karunaratne/Desktop/New folder (2)/1.mp4"));
 player->setPlaylist(playlist);
 on_actionPlay_triggered();
 
@@ -262,17 +240,6 @@ on_actionPlay_triggered();
 
 
 
-//     QMediaContent  flienames = QFileDialog::getOpenFileNames(this,"Open files","","Video Files(*.*)");
-
-//    if( !flienames.isEmpty() )
-//    {
-//        for(int i =0; i<flienames.count();i++)
-//        {
-//          //  player->setMedia(QUrl::fromLocalFile(flienames.at(i)));
-
-//        playlist->addMedia(i,);
-
-//        }
 
 
 }
